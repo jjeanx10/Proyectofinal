@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #363062;
+    color: #F5E8C7;
+    text-align: center;
+}
+
+header {
+    margin-top: -1em; 
+}
+aside{  
+  margin-right: auto ;
+}
+aside img{
+  width: 260px;
+  height: 160px;
+}
+
+h1, h2, h4, label {
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+article {
+    border: solid #E0F4FF;
+    width: 25%;
+    margin: 2em auto; 
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: solid black 1px;
+    height: 20px; 
+    width: 10em;
+    padding: 6px;
+    margin: 10px 0;
+}
+
+
+label {
+    padding: 2px; 
+    margin: 3px 0;
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+
+
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn25 {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    margin-top: -10px;
+    }
